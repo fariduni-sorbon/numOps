@@ -5,12 +5,6 @@ namespace NumOps
 {
     public static class Helpers
     {
-
-        public static int showDIm(int[,] matrix, int i)
-        {
-            return matrix.GetLength(i);
-        }
-
         public static int Sum(int[,] matrix)
         {
             int res = 0;
@@ -120,7 +114,6 @@ namespace NumOps
                 };
                 res.Add(data);
             }
-
             return res;
         }
     }

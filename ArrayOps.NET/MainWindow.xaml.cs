@@ -46,8 +46,6 @@ namespace NumOps
                 #endregion
 
                 #region get summaries
-                dim1.Content = "rows: " + Helpers.showDIm(cellValues, 0).ToString();
-                dim2.Content = "columns: " + Helpers.showDIm(cellValues, 1).ToString();
 
                 sumBox.Text = Helpers.Sum(cellValues).ToString();
                 avgBox.Text = Helpers.Avg(cellValues).ToString();

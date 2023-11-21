@@ -1,7 +1,4 @@
 Public Module Helpers
-    Public Function showDIm(ByVal matrix As Integer(,), ByVal i As Integer) As Integer
-        Return matrix.GetLength(i)
-    End Function
 
     Public Function Sum(ByVal matrix As Integer(,)) As Integer
         Dim res As Integer = 0
